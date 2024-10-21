@@ -8,9 +8,9 @@
 import UIKit
 import SwiftUI
 
-class MainSwiftUIHostController: UIHostingController<ContentView> {
+class MainSwiftUIHostController: UIHostingController<TwoWeeksMenuView> {
   init() {
-    super.init(rootView: ContentView())
+    super.init(rootView: TwoWeeksMenuView())
   }
 
   @objc required dynamic init?(coder aDecoder: NSCoder) {

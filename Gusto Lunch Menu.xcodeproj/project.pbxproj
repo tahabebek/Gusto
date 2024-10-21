@@ -7,8 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3652D24F2C3F608F00C22394 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3652D24E2C3F608F00C22394 /* ContentView.swift */; };
 		3652D2512C3F614B00C22394 /* MainSwiftUIHostController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3652D2502C3F614B00C22394 /* MainSwiftUIHostController.swift */; };
+		7D6815852CC6FAD100C4EF57 /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D6815842CC6FACE00C4EF57 /* MenuItem.swift */; };
+		7D68158B2CC6FEB500C4EF57 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D68158A2CC6FEB200C4EF57 /* Menu.swift */; };
+		7D6815C42CC7056700C4EF57 /* LunchMenuViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D6815C32CC7056700C4EF57 /* LunchMenuViewModel.swift */; };
+		7D6815C72CC7137300C4EF57 /* Calendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D6815C62CC7137300C4EF57 /* Calendar.swift */; };
+		7D6815C92CC8179700C4EF57 /* LunchItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D6815C82CC8179700C4EF57 /* LunchItem.swift */; };
+		7D6815CB2CC817AF00C4EF57 /* LunchWeek.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D6815CA2CC817AF00C4EF57 /* LunchWeek.swift */; };
+		7D6815CE2CC81A6900C4EF57 /* WeekSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D6815CD2CC81A6900C4EF57 /* WeekSelector.swift */; };
+		7D6815D02CC81A8900C4EF57 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D6815CF2CC81A8900C4EF57 /* MenuView.swift */; };
+		7D6815D22CC81A9B00C4EF57 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D6815D12CC81A9B00C4EF57 /* CardView.swift */; };
+		7D6815D42CC81AE300C4EF57 /* TwoWeeksMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D6815D32CC81AE300C4EF57 /* TwoWeeksMenuView.swift */; };
 		C3038F9C2859360200909FA5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3038F9B2859360200909FA5 /* AppDelegate.swift */; };
 		C3038F9E2859360200909FA5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3038F9D2859360200909FA5 /* SceneDelegate.swift */; };
 		C3038FA02859360200909FA5 /* MainUIKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3038F9F2859360200909FA5 /* MainUIKitViewController.swift */; };
@@ -39,8 +48,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3652D24E2C3F608F00C22394 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3652D2502C3F614B00C22394 /* MainSwiftUIHostController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainSwiftUIHostController.swift; sourceTree = "<group>"; };
+		7D6815842CC6FACE00C4EF57 /* MenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
+		7D68158A2CC6FEB200C4EF57 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		7D6815C32CC7056700C4EF57 /* LunchMenuViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LunchMenuViewModel.swift; sourceTree = "<group>"; };
+		7D6815C62CC7137300C4EF57 /* Calendar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calendar.swift; sourceTree = "<group>"; };
+		7D6815C82CC8179700C4EF57 /* LunchItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LunchItem.swift; sourceTree = "<group>"; };
+		7D6815CA2CC817AF00C4EF57 /* LunchWeek.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LunchWeek.swift; sourceTree = "<group>"; };
+		7D6815CD2CC81A6900C4EF57 /* WeekSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekSelector.swift; sourceTree = "<group>"; };
+		7D6815CF2CC81A8900C4EF57 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		7D6815D12CC81A9B00C4EF57 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		7D6815D32CC81AE300C4EF57 /* TwoWeeksMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoWeeksMenuView.swift; sourceTree = "<group>"; };
 		C3038F982859360200909FA5 /* Gusto Lunch Menu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gusto Lunch Menu.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3038F9B2859360200909FA5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C3038F9D2859360200909FA5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -82,6 +100,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7D6815C52CC7136100C4EF57 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				7D6815C62CC7137300C4EF57 /* Calendar.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		7D6815CC2CC81A5900C4EF57 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7D6815D32CC81AE300C4EF57 /* TwoWeeksMenuView.swift */,
+				7D6815D12CC81A9B00C4EF57 /* CardView.swift */,
+				7D6815CD2CC81A6900C4EF57 /* WeekSelector.swift */,
+				7D6815CF2CC81A8900C4EF57 /* MenuView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		C3038F8F2859360200909FA5 = {
 			isa = PBXGroup;
 			children = (
@@ -106,14 +143,16 @@
 		C3038F9A2859360200909FA5 /* Gusto Lunch Menu */ = {
 			isa = PBXGroup;
 			children = (
+				7D6815CC2CC81A5900C4EF57 /* Views */,
+				7D6815C52CC7136100C4EF57 /* Extensions */,
 				C3038FD02859574B00909FA5 /* Data */,
 				C3038FCF285956F300909FA5 /* AppDelegates */,
-				3652D24E2C3F608F00C22394 /* ContentView.swift */,
 				C3038F9F2859360200909FA5 /* MainUIKitViewController.swift */,
 				3652D2502C3F614B00C22394 /* MainSwiftUIHostController.swift */,
 				C3038FA42859360400909FA5 /* Assets.xcassets */,
 				C3038FA62859360400909FA5 /* LaunchScreen.storyboard */,
 				C3038FA92859360400909FA5 /* Info.plist */,
+				7D6815C32CC7056700C4EF57 /* LunchMenuViewModel.swift */,
 			);
 			path = "Gusto Lunch Menu";
 			sourceTree = "<group>";
@@ -147,7 +186,11 @@
 		C3038FD02859574B00909FA5 /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				7D6815CA2CC817AF00C4EF57 /* LunchWeek.swift */,
+				7D6815C82CC8179700C4EF57 /* LunchItem.swift */,
 				C3038FCB285936C400909FA5 /* LunchMenuDataSource.swift */,
+				7D6815842CC6FACE00C4EF57 /* MenuItem.swift */,
+				7D68158A2CC6FEB200C4EF57 /* Menu.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -285,10 +328,19 @@
 			files = (
 				3652D2512C3F614B00C22394 /* MainSwiftUIHostController.swift in Sources */,
 				C3038FA02859360200909FA5 /* MainUIKitViewController.swift in Sources */,
-				3652D24F2C3F608F00C22394 /* ContentView.swift in Sources */,
+				7D6815852CC6FAD100C4EF57 /* MenuItem.swift in Sources */,
+				7D6815CB2CC817AF00C4EF57 /* LunchWeek.swift in Sources */,
+				7D68158B2CC6FEB500C4EF57 /* Menu.swift in Sources */,
 				C3038F9C2859360200909FA5 /* AppDelegate.swift in Sources */,
+				7D6815D22CC81A9B00C4EF57 /* CardView.swift in Sources */,
+				7D6815D02CC81A8900C4EF57 /* MenuView.swift in Sources */,
 				C3038FCC285936C400909FA5 /* LunchMenuDataSource.swift in Sources */,
+				7D6815D42CC81AE300C4EF57 /* TwoWeeksMenuView.swift in Sources */,
 				C3038F9E2859360200909FA5 /* SceneDelegate.swift in Sources */,
+				7D6815C42CC7056700C4EF57 /* LunchMenuViewModel.swift in Sources */,
+				7D6815CE2CC81A6900C4EF57 /* WeekSelector.swift in Sources */,
+				7D6815C92CC8179700C4EF57 /* LunchItem.swift in Sources */,
+				7D6815C72CC7137300C4EF57 /* Calendar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -463,7 +515,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -490,7 +542,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
